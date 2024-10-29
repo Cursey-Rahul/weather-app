@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+body{
+    background: #555;
+    
+}
+.card{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    margin: 40px auto 0px;
+    background: linear-gradient(35deg, rgb(48, 48, 216), rgb(21, 1, 68));
+    border-radius: 25px;
+   justify-content: center;
+   padding: 25px;
+    
+    text-align: center;
+}
+.search{
+    display: flex;
+    flex-direction: row;
+    border: none;
+    justify-content: center;
+    height: 50px;
+    
+
+}
+input:focus{
+    outline: none;
+}
+.search input{
+     border-radius: 25px ;
+     height: 50px;
+     border: none;
+     width: 75%;
+     padding-left: 25px;
+}
+button{
+    margin-left: 15px;
+    height: 50px;
+    width: 50px;
+    background-image: url("search.png");
+    background-color: whitesmoke;
+    background-size: cover;
+    background-position: center;
+    border-radius: 50%;
+    background-size: 20px;
+    background-repeat: no-repeat;
+    border: none;
+    
+}
+.mid{
+    color: aliceblue;
+}
+.mid img{
+    height: 250px;
+    padding: 0;
+    margin: 0; 
+}
+.mid p{
+    font-size: 65px;
+}
+.mid h2{
+    font-size: 30px;
+}
+.stats{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+    margin-top: 45px;
+    height: 70px;
+
+   
+}
+.humidity{ 
+    color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding-left:20px ;
+    
+}
+.l1{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.l1 img{
+    height: 30px;
+    padding-top: 3px;
+    margin: 0; 
+}
+.l1 p{
+    font-size: 22px;
+    margin-left: 0px;
+    
+}
+.hum{
+    font-size: 15px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: row;
+}
+.wind{
+    display: flex;
+    color: aliceblue;
+    width: auto;
+    flex-direction: column;
+    padding-right: 20px;
+    
+}
+.l2{ 
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+.l2 img{
+    height: 36px;
+    padding: 0;
+    margin: 0;
+
+}
+.l2 p{
+    font-size: 22px;
+    margin-left: 5px;
+    
+}
+.win{
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+}
+.mid,.stats{
+    visibility: hidden;
+}
